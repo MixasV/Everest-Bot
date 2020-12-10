@@ -10,8 +10,8 @@ import time
 hours = 24
 seconds = hours * 60 * 60
 now = int(time.time())
-# Вот сюда ввести токен бота
-bot = telebot.TeleBot("1015097547:AAEL4oFRbZrPQCAn5vWkLhXu1PUxZJ1gTWA")
+# Input bot token
+bot = telebot.TeleBot("BOT-TOKEN")
 
 
 def export(query):
